@@ -2,7 +2,7 @@ console.log(" Welcome to UcerIdiotz");
 
 const videoText = document.getElementById("video-text");
 
-const videoText01 = document.getElementById("video-text");
+const videoText01 = document.getElementById("video-text01");
 const videoIframeContainer = document.getElementById("video-iframe-container");
 const topics=document.getElementById("unit-topics");
 const unit_div=document.getElementById('unit-div');
