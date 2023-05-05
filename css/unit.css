@@ -59,6 +59,10 @@
    /* box shadow effect */
    
 }
+.note{
+  font-family: 'Bakbak One';
+  margin-left:3px; 
+}
 .header p{
    margin-top:1.6em;
    font-size: larger;
@@ -130,7 +134,7 @@ background-color: rgba(8, 8, 27, 0.5);
 border-radius: 7px;
 border: 1px solid rgba(255, 255, 255, 0.125);
 position:fixed;
-z-index:3;
+z-index: 3;
 } 
 .unit-div::-webkit-scrollbar{
    width: 0px;
@@ -206,7 +210,6 @@ i{
 .unit-topics>ul{
   margin:2px;
   padding-left:10px;
-
 }
 /* topics anchor tag */
 .unit-topics>ul a{
@@ -223,19 +226,21 @@ i{
 }
 /* video container css */
 .video-container {
-
+  position:relative;
+  z-index: 5;
  }
  
- #video-text {
+ .video-text {
    text-align: center;
    font-weight: bold;
    color: white;
    cursor: pointer;
    width: auto;
+   margin-left: 2rem;
  }
  
  
- #video-iframe-container {
+ .video-iframe-container {
    width:100vw;
    backdrop-filter: blur(25px) saturate(117%);
  -webkit-backdrop-filter: blur(25px) saturate(117%);
@@ -244,20 +249,25 @@ i{
  border: 1px solid rgba(255, 255, 255, 0.125);
    display: none;
  }
- #video-iframe-english{
+ .video-iframe-english{
    display: none;
  }
- #video-iframe-container>p{
+ .video-iframe-container>p{
    margin: 0;
    padding: 0;
    border: 0;
    cursor: pointer;
  }
- #video-iframe-container>iframe{
+ .video-iframe-container>iframe{
    margin-top: 1rem;
    border-radius:.3rem;
-   margin-left:1.3rem;
+   margin-left:1.5rem;
  } 
- 
+ .video-text{
+   margin:2px;
+   padding-left:10px;
+   width: 150px;
+   text-align: center;
+ }
 
 
