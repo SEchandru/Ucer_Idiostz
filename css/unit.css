@@ -130,6 +130,7 @@ background-color: rgba(8, 8, 27, 0.5);
 border-radius: 7px;
 border: 1px solid rgba(255, 255, 255, 0.125);
 position:fixed;
+z-index:3;
 } 
 .unit-div::-webkit-scrollbar{
    width: 0px;
