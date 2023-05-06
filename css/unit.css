@@ -107,7 +107,7 @@
 
 /* start of he unit name and unit lis division */
 .unit-div{
-    height:100px; 
+    height:auto; 
    font-family: 'Alkatra';
    font-weight: bold; 
    padding: 0;
@@ -123,7 +123,7 @@ scrollbar-width: 0px;
 
 }
  .unit-div-2{
-   height:300px;
+   height:auto;
    font-family: 'Alkatra';
    font-weight: bold; 
    padding: 0;
@@ -133,8 +133,8 @@ scrollbar-width: 0px;
 background-color: rgba(8, 8, 27, 0.5);
 border-radius: 7px;
 border: 1px solid rgba(255, 255, 255, 0.125);
-position:fixed;
-z-index: 3;
+position:relative;
+z-index: 4;
 } 
 .unit-div::-webkit-scrollbar{
    width: 0px;
@@ -150,27 +150,27 @@ z-index: 3;
 /* color border for the division */
 .blue{
   border-left: #3F0B70 solid .5rem;
-  height: 100px;
+  height:auto;
   border-radius: 10px;
 }
 .yellow{
    border-left: #e6ff02 solid .5rem;
-   height: 100px;
+   height:auto;
    border-radius: 10px;
  }
  .green{
    border-left: #00ff00 solid .5rem;
-   height: 100px;
+   height:auto;
    border-radius: 10px;
  }
  .pink{
    border-left: #f80693 solid .5rem;
-   height: 100px;
+   height:auto;
    border-radius: 10px;
  }
  .orange{
    border-left: rgb(255, 166, 0) solid .5rem;
-   height: 100px;
+   height:auto;
    border-radius: 10px;
  }
 /* unit name style  */
@@ -226,8 +226,9 @@ i{
 }
 /* video container css */
 .video-container {
-  position:relative;
-  z-index: 5;
+   position:relative;
+   z-index:3;
+   text-align: center;
  }
  
  .video-text {
@@ -247,8 +248,9 @@ i{
  background: linear-gradient(238deg, rgba(32,8,60,1) 0%, rgba(2,0,36,1) 44%, rgba(2,0,36,1) 100%);
  border-radius: 7px;
  border: 1px solid rgba(255, 255, 255, 0.125);
-   display: none;
+ display:none;
  }
+ 
  .video-iframe-english{
    display: none;
  }
@@ -261,12 +263,12 @@ i{
  .video-iframe-container>iframe{
    margin-top: 1rem;
    border-radius:.3rem;
-   margin-left:1.5rem;
+   /* margin-left:1.5rem; */
  } 
  .video-text{
    margin:2px;
    padding-left:10px;
-   width: 150px;
+   width:9rem;
    text-align: center;
  }
 
