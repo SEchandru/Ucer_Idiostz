@@ -242,15 +242,24 @@ i{
  
  
  .video-iframe-container {
-   width:100vw;
-   backdrop-filter: blur(25px) saturate(117%);
+  width: 80vw;
+  backdrop-filter: blur(25px) saturate(117%);
  -webkit-backdrop-filter: blur(25px) saturate(117%);
  background: linear-gradient(238deg, rgba(32,8,60,1) 0%, rgba(2,0,36,1) 44%, rgba(2,0,36,1) 100%);
  border-radius: 7px;
  border: 1px solid rgba(255, 255, 255, 0.125);
  display:none;
  }
- 
+ .link-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+ .link-container>a{
+  text-decoration: none;
+  color: white;
+ }
  .video-iframe-english{
    display: none;
  }
