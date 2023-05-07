@@ -187,6 +187,10 @@ i{
    color: #3F0B70;
 
 }
+svg{
+     margin:5px;
+   color: #3F0B70;
+}
 /* unit topics style */
 .unit-topics{
    overflow-y: auto;
