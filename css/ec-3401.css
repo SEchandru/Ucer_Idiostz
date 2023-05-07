@@ -243,13 +243,58 @@ i{
  
  .video-iframe-container {
   width: 80vw;
+  height: 100px;
   backdrop-filter: blur(25px) saturate(117%);
  -webkit-backdrop-filter: blur(25px) saturate(117%);
  background: linear-gradient(238deg, rgba(32,8,60,1) 0%, rgba(2,0,36,1) 44%, rgba(2,0,36,1) 100%);
  border-radius: 7px;
  border: 1px solid rgba(255, 255, 255, 0.125);
  display:none;
+ animation: hover  1s;
  }
+ .hoverback{
+   animation: hoverback 1s;
+ }
+ @keyframes hover {
+   0%{
+      height: 25px;
+      opacity:0;
+   }
+   25%{
+      height: 50px;
+      opacity: 0;
+   }
+   50%{
+      height: 75px;
+      opacity: .2;
+   }
+
+   100%{
+      height: 100px;
+      opacity: 1;
+   }
+ }
+
+ @keyframes hoverback {
+   0%{
+      height: 100px;
+      opacity:1;
+   }
+   25%{
+      height: 75px;
+      opacity: .5;
+   }
+   50%{
+      height: 50px;
+      opacity: .2;
+   }
+
+   100%{
+      height: 0px;
+      opacity: 0;
+   }
+ }
+
  .link-container{
   display: flex;
   align-items: center;
