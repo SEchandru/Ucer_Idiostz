@@ -149,34 +149,33 @@ z-index: 4;
 
 /* color border for the division */
 .blue{
-  border-left: #3F0B70 solid .5rem;
+  border-left: #3F0B70 solid .7rem;
   height:auto;
   border-radius: 10px;
 }
 .yellow{
-   border-left: #e6ff02 solid .5rem;
+   border-left: #e6ff02 solid .7rem;
    height:auto;
    border-radius: 10px;
  }
  .green{
-   border-left: #00ff00 solid .5rem;
+   border-left: #00ff00 solid .7rem;
    height:auto;
    border-radius: 10px;
  }
  .pink{
-   border-left: #f80693 solid .5rem;
+   border-left: #f80693 solid .7rem;
    height:auto;
    border-radius: 10px;
  }
  .orange{
-   border-left: rgb(255, 166, 0) solid .5rem;
+   border-left: rgb(255, 166, 0) solid .7rem;
    height:auto;
    border-radius: 10px;
  }
 /* unit name style  */
 .unit-name{
    font-size:1em;
-   height:40px;
    font-family: 'Bakbak One';
 /* -webkit-box-shadow: 5px 5px 18px 8px #000000; 
 box-shadow: 5px 5px 18px 8px #000000; */
@@ -189,7 +188,6 @@ i{
 }
 svg{
      margin:5px;
-   color: #3F0B70;
 }
 /* unit topics style */
 .unit-topics{
