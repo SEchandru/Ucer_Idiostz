@@ -61,11 +61,22 @@ font-weight: bolder;
 text-align: center;
 }
 h6{
-  color: aliceblue;
+  color: white;
 font-family: 'Noto Serif', serif;
 font-weight: bolder;
 text-align: center;
+font-size: 20px;
+margin-bottom: 20px;
 }
+h6 small{
+    color: white;
+  font-family: 'Noto Serif', serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+  }
+
 /* navbar code */
 
 .dropdown {
