@@ -10,19 +10,22 @@
 /* header unit css */
 .body{
    /* back-gradient */
-   background: rgb(32,8,60);
-   background: linear-gradient(238deg, rgba(32,8,60,1) 0%, rgba(2,0,36,1) 44%, rgba(2,0,36,1) 100%);
-   /* background-image: url(../img/3d-box-.jpg);
-   background-position:cover;
-   background-size: cover;
-   background-repeat: no-repeat; */
+   background:url(../Assets/img/semester-topics-bg.jpg);
+   background-position:center;
+   background-size:cover;
+   background-repeat: no-repeat; 
    /* Background styles */
    color: white; 
    /* -webkit-filter: blur(8px); */
 
 }
 /* total div css */
-   
+   .total-div{
+      background: url(../Assets/img/semester-main.svg);
+      background-position: center;
+      background-size:cover;
+      background-repeat: no-repeat;
+   }
 
 /* unit */
 .unit{
@@ -44,8 +47,8 @@
  border-bottom-right-radius: 2px;
  border-top-left-radius:2px ;
  /* box shadow */
- -webkit-box-shadow: 0px 3px 6px 1px #3F0B70; 
- box-shadow: 0px 3px 6px 1px #3F0B70;
+ -webkit-box-shadow: 1px 4px 18px -1px rgba(0,0,0,0.62); 
+ box-shadow: 1px 4px 18px -1px rgba(0,0,0,0.62);
 }
 /* end of the unit */
 /*    start of the header division */
@@ -56,39 +59,31 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   color: black;
    /* box shadow effect */
    
 }
 .note{
   font-family: 'Bakbak One';
   margin-left:3px; 
+  color: black;
 }
 .header p{
    margin-top:1.6em;
    font-size: larger;
    font-family: 'Bakbak One';
    font-size:1.3em;
+   font-weight: bolder;
    /* 3d text format */
    position: absolute;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px #919191,
-        1px 3px 1px #919191,
-        1px 3px 1px #919191,
-        1px 3px 1px #919191,
-        1px 3px 1px #919191,
-        1px 3px 1px #919191,
-        1px 3px 1px #919191,
-        1px 3px 1px #919191,
-        1px 3px 1px #919191,
-        1px 3px 1px #919191, 
-    1px 18px 6px rgba(16,16,16,0.4),
-   1px 5px 10px rgba(16,16,16,0.2),
-    1px 5px 10px rgba(16,16,16,0.2),
-    1px 10px 10px rgba(16,16,16,0.4); 
-    /* box shadow for the header */
-    /* -webkit-box-shadow: 0px 3px 8px 5px #000000; 
-   box-shadow: 0px 3px 8px 5px #000000; */
-
+   text-transform: uppercase;
+   backdrop-filter: blur(25px) saturate(66%);
+   -webkit-backdrop-filter: blur(25px) saturate(66%);
+   background-color: rgba(250, 250, 251, 0.16);
+   border-radius: 12px;
+   border: 1px solid rgba(255, 255, 255, 0.125);
+   -webkit-box-shadow: 1px 4px 15px 0px rgba(0,0,0,0.63); 
+box-shadow: 1px 4px 15px 0px rgba(0,0,0,0.63);
 }
 /* cap style */
 .unit>i{
@@ -98,7 +93,7 @@
    transform: rotate(35deg);
    height:30px;
    width: 30px;
-   color :white;
+   color: black;
    
 }
 /* */
@@ -116,10 +111,12 @@
 /* glassmorphism effect */
 backdrop-filter: blur(25px) saturate(117%);
 -webkit-backdrop-filter: blur(25px) saturate(117%);
-background-color: rgba(8, 8, 27, 0.5);
+background-color:white;
 border-radius: 7px;
-border: 1px solid rgba(255, 255, 255, 0.125);
+border:none;
 scrollbar-width: 0px;
+-webkit-box-shadow: 1px 4px 18px -1px rgba(0,0,0,0.62); 
+box-shadow: 1px 4px 18px -1px rgba(0,0,0,0.62);
 
 }
  .unit-div-2{
@@ -130,11 +127,13 @@ scrollbar-width: 0px;
    margin: 0;
  backdrop-filter: blur(25px) saturate(117%);
  -webkit-backdrop-filter: blur(25px) saturate(117%);
-background-color: rgba(8, 8, 27, 0.5);
+background-color: white;
 border-radius: 7px;
 border: 1px solid rgba(255, 255, 255, 0.125);
 position:relative;
 z-index: 4;
+-webkit-box-shadow: 1px 4px 18px -1px rgba(0,0,0,0.62); 
+box-shadow: 1px 4px 18px -1px rgba(0,0,0,0.62);
 } 
 .unit-div::-webkit-scrollbar{
    width: 0px;
@@ -173,10 +172,13 @@ z-index: 4;
    height:auto;
    border-radius: 10px;
  }
+ /* div border */
+
 /* unit name style  */
 .unit-name{
    font-size:1em;
    font-family: 'Bakbak One';
+   color: black;
 /* -webkit-box-shadow: 5px 5px 18px 8px #000000; 
 box-shadow: 5px 5px 18px 8px #000000; */
 }
@@ -199,9 +201,11 @@ svg{
    border-radius:18px;
    text-align: center;
    scrollbar-width: 0px;
-   -webkit-box-shadow: 3px 3px 6px 6px #000000; 
-   box-shadow: 3px 3px 6px 6px #000000;
+   -webkit-box-shadow: 1px 5px 22px -3px rgba(0,0,0,0.54); 
+box-shadow: 1px 5px 22px -3px rgba(0,0,0,0.54);
+   
 }
+
 
 /* scroll bar hide */
 .unit-topics::-webkit-scrollbar{
@@ -223,13 +227,21 @@ svg{
    align-items: center;
    justify-content: center; 
    height:4rem;
+   margin-top: 1rem;
    font-weight:bolder;
    font-size: 1rem;
-   background-color: rgb(2, 11, 34);
+   color: black;
+   backdrop-filter: blur(25px) saturate(66%);
+   -webkit-backdrop-filter: blur(25px) saturate(66%);
+   background-color: rgba(250, 250, 251, 0.16);
+   border-radius: 12px;
+   border: 1px solid rgba(255, 255, 255, 0.125);
+   -webkit-box-shadow: 1px 4px 15px 0px rgba(0,0,0,0.63); 
+box-shadow: 1px 4px 15px 0px rgba(0,0,0,0.63);
 }
 .footer>a{
    text-decoration: none;
-   color: white;
+   color:black;
 } 
 .footer>i{
    color: red;
@@ -240,11 +252,11 @@ svg{
    z-index:3;
    text-align: center;
  }
- 
+ /* topics text */
  .video-text {
    text-align: center;
    font-weight: bold;
-   color: white;
+   color:black;
    cursor: pointer;
    width: auto;
    margin-left: 2rem;
@@ -256,11 +268,13 @@ svg{
   height: 100px;
   backdrop-filter: blur(25px) saturate(117%);
  -webkit-backdrop-filter: blur(25px) saturate(117%);
- background: linear-gradient(238deg, rgba(32,8,60,1) 0%, rgba(2,0,36,1) 44%, rgba(2,0,36,1) 100%);
+ background: white;
  border-radius: 7px;
  border: 1px solid rgba(255, 255, 255, 0.125);
  display:none;
  animation: hover  1s;
+ -webkit-box-shadow: 1px 5px 22px -3px rgba(0,0,0,0.54); 
+ box-shadow: 1px 5px 22px -3px rgba(0,0,0,0.54);
  }
  .hoverback{
    animation: hoverback 1s;
@@ -311,9 +325,9 @@ svg{
   justify-content: center;
   flex-direction: column;
  }
- .link-container>a{
+ .link-container>a,span{
   text-decoration: none;
-  color: white;
+  color: black;
  }
  .video-iframe-english{
    display: none;
@@ -335,5 +349,25 @@ svg{
    width:9rem;
    text-align: center;
  }
+ .video-text:hover{
+   color:orange;
+ }
+ /* arrow animation */
+ .arrowws{
+   animation: linear arrow  1s infinite;
+   margin-left: 2rem;
+ }  
 
+@keyframes arrow{
+   0%{
+     margin-left:2.5rem;
+   }
+   50%{
+    margin-left: 4rem;
+   } 
+   100%{
+     margin-left: 5rem;
+     
+   }
+}
 
