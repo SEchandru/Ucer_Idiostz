@@ -10,7 +10,7 @@
 /* header unit css */
 .body{
    /* back-gradient */
-   background:url(../Assets/img/semester-topics-bg.jpg);
+   /* background:url(../Assets/img/semester-topics-bg.jpg); */
    background-position:center;
    background-size:cover;
    background-repeat: no-repeat; 
@@ -356,18 +356,18 @@ box-shadow: 1px 4px 15px 0px rgba(0,0,0,0.63);
  /* arrow animation */
  .arrowws{
    animation: linear arrow  1s infinite;
-   margin-left: 2rem;
+   display: block;
  }  
 
 @keyframes arrow{
    0%{
-     margin-left:2.5rem;
+     margin-left:0;
    }
    50%{
-    margin-left: 4rem;
+    margin-left: .5rem;
    } 
    100%{
-     margin-left: 5rem;
+     margin-left: 1rem;
      
    }
 }
