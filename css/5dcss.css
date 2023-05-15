@@ -135,9 +135,8 @@ h6 i{
 
 .dropdown-content a:hover {
   text-align: justify;
-  background-color: #f1f1f1;
   /* background: black; */
-  color: white;
+  color:orange;
 }
 
 .dropdown:hover .dropdown-content {
