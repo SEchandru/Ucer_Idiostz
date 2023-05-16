@@ -1,5 +1,6 @@
 console.log(" Welcome to UcerIdiotz");
 
+// topic 1
 const unit_div=document.getElementById('unit-div');
 const videoText = document.getElementById("video-text");
 const videoIframeContainer = document.getElementById("video-iframe-container");
@@ -115,6 +116,29 @@ videoText05.addEventListener("click", function() {
 
 
 // topic 3 js
+const videoText055 = document.getElementById("video-text055");
+const english055 = document.getElementById("english055")
+const videoIframeContainer055 = document.getElementById("video-iframe-container055");
+const video_english055=document.getElementById('video-iframe-english055');
+const video_tamil055=document.getElementById('video-iframe055');
+
+videoText055.addEventListener("click", function() {
+  if (videoIframeContainer055.style.display === "none") {
+    videoIframeContainer055.style.display = "block";
+    unit_div.classList.add("unit-div-2");
+    videoIframeContainer055.classList.remove("hoverback");
+  } else {
+    unit_div.classList.remove("unit-div-2");
+    videoIframeContainer055.classList.add("hoverback");
+    setTimeout(function(){
+     videoIframeContainer055.style.display = "none";
+    },1000)
+  }
+});
+
+
+
+// topic 3 js
 const videoText06 = document.getElementById("video-text06");
 const english06 = document.getElementById("english06")
 const videoIframeContainer06 = document.getElementById("video-iframe-container06");
@@ -221,6 +245,65 @@ videoText10.addEventListener("click", function() {
   }
 });
 
+const videoText11 = document.getElementById("video-text11");
+const english11 = document.getElementById("english11")
+const videoIframeContainer11 = document.getElementById("video-iframe-container11");
+const video_english11=document.getElementById('video-iframe-english11');
+const video_tamil11=document.getElementById('video-iframe11');
+
+videoText11.addEventListener("click", function() {
+  if (videoIframeContainer11.style.display === "none") {
+    videoIframeContainer11.style.display = "block";
+    unit_div.classList.add("unit-div-2");
+    videoIframeContainer11.classList.remove("hoverback");
+  } else {
+    unit_div.classList.remove("unit-div-2");
+    videoIframeContainer11.classList.add("hoverback");
+    setTimeout(function(){
+     videoIframeContainer11.style.display = "none";
+    },1000)
+  }
+});
+
+const videoText12 = document.getElementById("video-text12");
+const english12 = document.getElementById("english12")
+const videoIframeContainer12 = document.getElementById("video-iframe-container12");
+const video_english12=document.getElementById('video-iframe-english12');
+const video_tamil12=document.getElementById('video-iframe12');
+
+videoText12.addEventListener("click", function() {
+  if (videoIframeContainer12.style.display === "none") {
+    videoIframeContainer12.style.display = "block";
+    unit_div.classList.add("unit-div-2");
+    videoIframeContainer12.classList.remove("hoverback");
+  } else {
+    unit_div.classList.remove("unit-div-2");
+    videoIframeContainer12.classList.add("hoverback");
+    setTimeout(function(){
+     videoIframeContainer12.style.display = "none";
+    },1000)
+  }
+});
+
+const videoText13 = document.getElementById("video-text13");
+const english13 = document.getElementById("english13")
+const videoIframeContainer13 = document.getElementById("video-iframe-container13");
+const video_english13=document.getElementById('video-iframe-english13');
+const video_tamil13=document.getElementById('video-iframe13');
+
+videoText13.addEventListener("click", function() {
+  if (videoIframeContainer13.style.display === "none") {
+    videoIframeContainer13.style.display = "block";
+    unit_div.classList.add("unit-div-2");
+    videoIframeContainer13.classList.remove("hoverback");
+  } else {
+    unit_div.classList.remove("unit-div-2");
+    videoIframeContainer13.classList.add("hoverback");
+    setTimeout(function(){
+     videoIframeContainer13.style.display = "none";
+    },1000)
+  }
+});
 
 
 //        ***********  unit 1 ended *****************************
