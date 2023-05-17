@@ -437,6 +437,26 @@ videoText_u206.addEventListener("click", function() {
   }
 });
 
+const videoText_u207 = document.getElementById("video-text_u207");
+const english_u207 = document.getElementById("english_u207")
+const videoIframeContainer_u207 = document.getElementById("video-iframe-container_u207");
+const video_english_u207=document.getElementById('video-iframe-english_u207');
+const video_tamil_u207=document.getElementById('video-iframe_u207');
+
+videoText_u207.addEventListener("click", function() {
+  if (videoIframeContainer_u207.style.display === "none") {
+    videoIframeContainer_u207.style.display = "block";
+    unit_div.classList.add("unit-div-2");
+    videoIframeContainer_u207.classList.remove("hoverback");
+  } else {
+    unit_div.classList.remove("unit-div-2");
+    videoIframeContainer_u207.classList.add("hoverback");
+    setTimeout(function(){
+     videoIframeContainer_u207.style.display = "none";
+    },1000)
+  }
+});
+
 
 
 const videoText_u208 = document.getElementById("video-text_u208");
@@ -515,6 +535,26 @@ videoText_u211.addEventListener("click", function() {
     },1000)
   }
 });
+const videoText_u2111 = document.getElementById("video-text_u2111");
+const english_u2111 = document.getElementById("english_u2111")
+const videoIframeContainer_u2111 = document.getElementById("video-iframe-container_u2111");
+const video_english_u2111=document.getElementById('video-iframe-english_u2111');
+const video_tamil_u2111=document.getElementById('video-iframe_u2111');
+
+videoText_u2111.addEventListener("click", function() {
+  if (videoIframeContainer_u2111.style.display === "none") {
+    videoIframeContainer_u2111.style.display = "block";
+    unit_div.classList.add("unit-div-2");
+    videoIframeContainer_u2111.classList.remove("hoverback");
+  } else {
+    unit_div.classList.remove("unit-div-2");
+    videoIframeContainer_u2111.classList.add("hoverback");
+    setTimeout(function(){
+     videoIframeContainer_u2111.style.display = "none";
+    },1000)
+  }
+});
+
 const videoText_u212 = document.getElementById("video-text_u212");
 const english_u212 = document.getElementById("english_u212")
 const videoIframeContainer_u212 = document.getElementById("video-iframe-container_u212");
