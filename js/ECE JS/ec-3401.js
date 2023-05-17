@@ -112,6 +112,26 @@ videoText05.addEventListener("click", function() {
   }
 });
 
+// ethernet 1 unit
+const videoText10 = document.getElementById("video-text10");
+const english10 = document.getElementById("english10")
+const videoIframeContainer10 = document.getElementById("video-iframe-container10");
+const video_english10=document.getElementById('video-iframe-english10');
+const video_tamil10=document.getElementById('video-iframe10');
+
+videoText10.addEventListener("click", function() {
+  if (videoIframeContainer10.style.display === "none") {
+    videoIframeContainer10.style.display = "block";
+    unit_div.classList.add("unit-div-2");
+    videoIframeContainer10.classList.remove("hoverback");
+  } else {
+    unit_div.classList.remove("unit-div-2");
+    videoIframeContainer10.classList.add("hoverback");
+    setTimeout(function(){
+     videoIframeContainer10.style.display = "none";
+    },1000)
+  }
+});
 
 
 // topic 3 js
