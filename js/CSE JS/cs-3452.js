@@ -112,6 +112,27 @@ videoText05.addEventListener("click", function() {
   }
 });
 
+// topic 3 js
+const videoText051 = document.getElementById("video-text051");
+const english051 = document.getElementById("english051")
+const videoIframeContainer051 = document.getElementById("video-iframe-container051");
+const video_english051=document.getElementById('video-iframe-english051');
+const video_tamil051=document.getElementById('video-iframe051');
+
+videoText051.addEventListener("click", function() {
+  if (videoIframeContainer051.style.display === "none") {
+    videoIframeContainer051.style.display = "block";
+    unit_div.classList.add("unit-div-2");
+    videoIframeContainer051.classList.remove("hoverback");
+  } else {
+    unit_div.classList.remove("unit-div-2");
+    videoIframeContainer051.classList.add("hoverback");
+    setTimeout(function(){
+     videoIframeContainer051.style.display = "none";
+    },1000)
+  }
+});
+
 
 
 // topic 3 js
